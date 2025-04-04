@@ -1,0 +1,63 @@
+body {
+  background-image: url(https://imgs.search.brave.com/IanqEq4m2axJPasJzEMWgN_ONLxfpES89L9-LBQMsyo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/Y2VyY2EtZ3JhYmFj/aW9uLXZpZGVvLXRl/bGVmb25vLWludGVs/aWdlbnRlLWNvbmNp/ZXJ0by1pbWFnZW4t/ZW50b25hZGFfMTE1/My02ODE1LmpwZz9z/ZW10PWFpc19oeWJy/aWQ);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.tecLiv {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 200px;
+  animation: drop-in 1000ms;
+  animation-iteration-count: 2;
+}
+@keyframes drop-in {
+  from {
+    transform: rotate(-30deg) translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
+h1 {
+  color: white;
+}
+
+.texto {
+  text-align: center;
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  color: grey;
+
+  text-shadow: 2px 2px 5px rgba(0, 0, 139, 0.8); /* Gris para el texto */
+}
+.video {
+  margin-left: 25%;
+  padding: 4%;
+}
+form {
+  padding: 3%;
+  margin-left: 38%;
+  background-color: rgba(0, 0, 139, 0.5);
+  padding: 2%;
+  width: 20%;
+  color: white;
+}
+form button {
+  margin: 8%;
+  margin-left: 15%;
+  text-align: center;
+}
+input {
+  background-color: rgba(0, 0, 139, 0.5);
+  border-radius: 2%;
+}
+footer {
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: x-small;
+}
